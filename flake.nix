@@ -13,8 +13,8 @@
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
       environment.systemPackages = [
-	pkgs.git
 	pkgs.curl
+	pkgs.git
 	pkgs.neovim
      ];
 
@@ -29,11 +29,12 @@ homebrew = {
       "ghostty"
       # "keybase"
       # "mullvadvpn"
+      "zen-browser"
     ];
 };
 
 
- 
+# Add change default browser 
         security.pam.enableSudoTouchIdAuth = true;
 
       # Necessary for using flakes on this system.
