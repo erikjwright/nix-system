@@ -21,9 +21,10 @@
 homebrew = {
     enable = true;
     onActivation.cleanup = "uninstall";
-    taps = [ "1password-cli" ];
+    taps = [];
     brews = [];
     casks = [
+    "1password"
       "bitwarden"
       "ghostty"
       "keybase"
