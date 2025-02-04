@@ -25,10 +25,10 @@ homebrew = {
     brews = [];
     casks = [
     "1password"
-      "bitwarden"
+      # "bitwarden"
       "ghostty"
-      "keybase"
-      "mullvadvpn"
+      # "keybase"
+      # "mullvadvpn"
     ];
 };
 
